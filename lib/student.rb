@@ -4,16 +4,15 @@ attr_accessor :knowledge_array
 
 
 def initialize
-  @knowledge_array = knowledge_array
   @knowledge_array = []
 end
 
 def learn(knowledge)
   @knowledge_array << knowledge
-end 
+end
 
 def knowledge
   @knowledge_array
 end
 
-end 
+end
