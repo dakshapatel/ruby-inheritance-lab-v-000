@@ -6,6 +6,7 @@ class Teacher < User
   KNOWLEDGE = knowledge_array
 
 def teach(knowledge_array)
+  @knowledge_array = knowledge_array
   #knowledge_array.sample
 
 end
