@@ -6,7 +6,7 @@ attr_accessor :knowledge
 
 
 def teach
-  knowledge.sample
+  KNOWLEDGE.sample
   #knowledge_array.sample
 
 end
