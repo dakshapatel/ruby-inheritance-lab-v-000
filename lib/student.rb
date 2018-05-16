@@ -3,7 +3,7 @@ class Student < User
 attr_accessor :knowledge_array
 
 
-def initialize
+def initialize(knowledge_array)
   @knowledge_array = []
 end
 
