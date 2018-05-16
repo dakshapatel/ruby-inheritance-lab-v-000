@@ -4,7 +4,7 @@ attr_accessor :knowledge_array
 
 @knowledge_array =[]
 def initialize
-  @knowledge_array = knowledge
+  @knowledge_array = knowledge_array
 end
 
 def learn(knowledge)
